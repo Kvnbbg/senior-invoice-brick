@@ -1,0 +1,19 @@
+{
+  "name": "senior-invoice-brick",
+  "version": "1.0.0",
+  "description": "Isolated senior-level TypeScript domain brick: sealed Money value object + pure Invoice calculation service",
+  "scripts": {
+    "test": "jest --verbose",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
